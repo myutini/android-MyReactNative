@@ -38,7 +38,7 @@ class TodoApp extends Component {
                 <TouchableOpacity
                     onPress = {() => {this.codePushSync()}}
                 >
-                Code Push
+                <Text>Code Push</Text>
                 </TouchableOpacity>
                 <Text>{JSON.stringify(this.state.logs)}</Text>
             </View>
