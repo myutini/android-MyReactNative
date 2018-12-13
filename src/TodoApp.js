@@ -34,7 +34,7 @@ class TodoApp extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Code Push Rocks!!!</Text>
+                <Text>Code Push Working!!!</Text>
                 <TouchableOpacity
                     onPress = {() => {this.codePushSync()}}
                 >
