@@ -18,7 +18,7 @@ class TodoApp extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Todo</Text>
+                <Text>Code Push Rocks!!!</Text>
             </View>
         );
     }
